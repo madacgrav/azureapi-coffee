@@ -7,7 +7,7 @@ class Token
         request = require 'request'
         host = 'login.windows.net'
         uri = '**subsccriptionid**/oauth2/token'
-        fullurl = "https://login.windows.net/**subsccriptionid**/oauth2/token"
+        fullurl = "https://login.windows.net/**tenatid**/oauth2/token"
         ARMResource = 'https://management.core.windows.net/'
         ClientID       = '*****azure client/app ID'
         ClientSecret   = 'SPN secret for API'
